@@ -1,4 +1,4 @@
-git commit -m "first commit"git commit -m "first commit"const DATA_PATH = './data.json';
+const DATA_PATH = './data.json';
 const BATCH = 60;
 
 async function loadData(){
