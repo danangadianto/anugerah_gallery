@@ -1,0 +1,15 @@
+# Python Virtual Environment
+.venv/
+
+# VS Code
+.vscode/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+img/

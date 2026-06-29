@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galeri Dokumentasi Sekolah</title>
+  <link rel="icon" href="img/logo.jpeg" type="image/jpeg" />
+  <link rel="shortcut icon" href="img/logo.jpeg" type="image/jpeg" />
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="description" content="Galeri dokumentasi sekolah - ringkas, minimalis, responsif" />
+</head>
+<body>
+  <main class="container">
+    <header class="site-header">
+      <div class="header-copy">
+        <h1>Galeri Dokumentasi SMP Kristen Anugerah</h1>
+        <p class="muted">Pilih tahun lalu klik event untuk melihat galeri.</p>
+        <p class="muted">Untuk dokumentasi video penampilan silakan mengunjungi <a href="https://www.youtube.com/@SMPKAnugerah" target="_blank" rel="noopener noreferrer">youtube SMPK Anugerah</a>.</p>
+      </div>
+      <img src="img/logo.jpeg" alt="Logo sekolah" class="header-logo" />
+    </header>
+
+    <section id="catalog"></section>
+
+    <section id="gallery-view" class="hidden">
+      <button id="back-btn" class="link">← Kembali</button>
+      <h2 id="gallery-title"></h2>
+      <div id="photos-grid" class="grid"></div>
+      <div id="load-more-wrap" class="center"></div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+    <button id="lb-close" class="lb-btn">✕</button>
+    <button id="lb-prev" class="lb-btn lb-side">◀</button>
+    <img id="lb-img" alt="" />
+    <button id="lb-next" class="lb-btn lb-side">▶</button>
+    <a id="lb-download" class="lb-download" download title="Download">⬇️</a>
+    <div id="lb-caption" class="lb-caption"></div>
+  </div>
+
+  <script src="assets/script.js" type="module"></script>
+</body>
+</html>
